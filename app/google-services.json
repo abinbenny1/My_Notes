@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "859930256455",
+    "project_id": "noteapplication-c709e",
+    "storage_bucket": "noteapplication-c709e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859930256455:android:fe34c1fe648609cbae3d62",
+        "android_client_info": {
+          "package_name": "com.canadore.mynotes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN-xJpviAHti1crOJGjiDj_KJFvV2U_z0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
