@@ -48,7 +48,7 @@ class AddNote : AppCompatActivity() {
             database.child(noteId).setValue(note)
                 .addOnSuccessListener {
                     Toast.makeText(this, "Note Saved", Toast.LENGTH_SHORT).show()
-                    finish() // Optionally close the activity after saving
+                    finish()
                 }
                 .addOnFailureListener { e ->
                     Toast.makeText(this, "Failed to save note: ${e.message}", Toast.LENGTH_SHORT).show()

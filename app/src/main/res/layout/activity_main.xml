@@ -11,7 +11,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:text="Welcome to your notes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,7 +23,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <!-- Floating Action Button with "+" icon -->
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_add"
             android:layout_width="wrap_content"
@@ -34,9 +35,13 @@
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="286dp"
-            android:layout_height="61dp"
-            android:text="My Notes" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" My Notes"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp" />
 
         <Button
             android:id="@+id/btn_note_page_1"

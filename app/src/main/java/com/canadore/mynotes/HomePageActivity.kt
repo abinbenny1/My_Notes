@@ -20,7 +20,7 @@ class HomePageActivity : AppCompatActivity() {
         // Setup Notes Button
         val btnNotes: Button = findViewById(R.id.btn_notes)
         btnNotes.setOnClickListener {
-            val intent = Intent(this, NotesListActivity::class.java) // Navigate to NotesListActivity
+            val intent = Intent(this, NotesListActivity::class.java)
             startActivity(intent)
         }
 

@@ -1,7 +1,7 @@
 package com.canadore.mynotes
 
 data class Note(
-    val id: String = "",         // Unique ID for each note
-    val heading: String = "",    // Note heading
-    val description: String = ""  // Note description
+    val id: String = "",
+    val heading: String = "",
+    val description: String = ""
 )
